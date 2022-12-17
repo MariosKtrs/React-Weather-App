@@ -1,0 +1,96 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+.App {
+  display:flex;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius:20px;
+  margin:10px;
+  padding:10px 0px;
+ 
+  
+}
+ul{
+ text-align:left;
+}
+
+
+.weather-container{
+  display:flex;
+  flex-direction:row;
+  border: 1px solid black;
+  border-radius:10px;
+  justify-content:space-around;
+  gap:35px;
+  padding:0 8px;
+  margin-top:50px;
+}
+.weather-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.weather-info{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding:20px;
+  
+}
+.primary-weather-info{
+  margin-top:50px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.secondary-weather-info{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  align-items:left;
+  padding-left:50px;
+  justify-content:center;
+  padding-top:50px;
+}
+.react-icon{
+  display:flex;
+  text-align:left
+}
+.react{
+  width:100px;
+  height:100px;
+}
+.bottom{
+  padding:5px;
+}
+.weather-boxes{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:nowrap;
+  border:1px solid black;
+  margin-top:30px;
+  padding:10px;
+}
+.box{
+  border:1px solid black;
+  padding:5px;
+}
+
+.primary-weather-icon{
+  height:100px;
+  width:100px;
+}
+.temperature{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  gap:10px;
+}
